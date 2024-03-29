@@ -1,0 +1,54 @@
+.Navbar li::after {
+    content: "";
+    height: 3px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 0;
+    display: block;
+    background: transparent;
+    transition: all 0.5s ease;
+  }
+  
+  .Navbar li:hover::after { 
+    width: 100%;
+    background: #5a76a4;
+  }
+  
+nav{
+  background-color: #21212150;
+  
+  backdrop-filter: blur(6px);
+  
+}
+
+.active-link{
+  transition: all 0.5s linear;
+  background-color: #6c8ec7; 
+}
+
+  @media (max-width:740px) {
+    .Navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* top: 60px; */
+    top: 0;
+    left: -110%;
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.5s ease;
+    }
+    #ul{
+      padding-right: 0;
+    }
+    #toggle{
+      display:block;
+    }
+  }
+
+  .logo{
+    text-shadow: 2px 2px 8px #5a76a4;
+  }
+  

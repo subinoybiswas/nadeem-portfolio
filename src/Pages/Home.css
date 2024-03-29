@@ -1,0 +1,7 @@
+
+.name,.hello{
+  background: linear-gradient(74deg, #faf9f8 0, #9b72cb 9%, #d96570 20%, #d96570 24%,#9b72cb 35%, #4285f4 44%, #9b72cb 50%, #d96570 56%, #fff 75%, #fff 100%);
+  background-clip: text;
+  color: transparent;
+  background-size: 400% 100%;
+}

@@ -1,0 +1,28 @@
+.reactIcon{
+    width: 2.6rem;
+    animation: spinning 5s infinite linear;
+  }
+
+  
+  @keyframes spinning {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width:1180px){
+    #btFooter{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 2rem;
+
+    }
+    
+  }
+
+  
