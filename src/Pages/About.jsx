@@ -1,11 +1,11 @@
 import React from "react";
 import "./About.css";
 import image from "../assets/hero.svg";
-import { JackInTheBox } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <JackInTheBox>
+    <Bounce>
       <div className="flex  pt-16 overflow-hidden" id="about">
         <div
           className="text-white text-lg w-[60%] pl-32 pr-16 pt-4 "
@@ -39,7 +39,7 @@ const About = () => {
           <img src={image} width="500px" alt="aboutImage" loading="lazy" />
         </div>
       </div>
-    </JackInTheBox>
+    </Bounce>
   );
 };
 

@@ -27,7 +27,7 @@ const Home = () => {
     loop: {},
   });
   return (
-    <div className="home pt-32  font-semibold  flex flex-col justify-center items-center  flex-wrap relative px-8  text-center" id="home">
+    <div className="home pt-32 pb-8 font-semibold  flex flex-col justify-center items-center  flex-wrap relative px-8  text-center" id="home">
       <div className="">
         <Tilt>
           <img src={avatar} alt="avatar" loading="lazy"/>
