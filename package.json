@@ -1,4 +1,4 @@
-{  
+{
   "homepage": "https://NadeemChaudhary16.github.io/Portfolio",
   "name": "portfolio-using-react",
   "private": true,
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",

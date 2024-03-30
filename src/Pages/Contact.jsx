@@ -24,11 +24,17 @@ const Contact = () => {
     event.preventDefault();
     toast.success("Message sent")
     console.log(formData);
+    setFormData({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+    })
    
   }
   return (
     <div className="flex flex-col justify-between items-center pt-16 px-8 " id="contact">
-    <h1 className="text-white text-5xl  py-4">Contact Me</h1>
+    <h1 className="text-white text-center text-5xl  py-4">Contact Me</h1>
       <form
         action=""
         onSubmit={submitHandler}

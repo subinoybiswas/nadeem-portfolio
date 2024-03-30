@@ -12,6 +12,7 @@ import IconButton from "@mui/joy/IconButton";
 import Typography from "@mui/joy/Typography";
 import SvgIcon from "@mui/joy/SvgIcon";
 import { HashLink } from "react-router-hash-link";
+import avatar from "../assets/avatar.jpg";
 
 export default function BioCard() {
   const handleInstagramClick = () => {
@@ -43,7 +44,7 @@ export default function BioCard() {
       }}
     >
       <CardContent sx={{ alignItems: "center", textAlign: "center" }}>
-        <Avatar src="src\assets\avatar.jpg" sx={{ "--Avatar-size": "4rem" }} />
+        <Avatar src={avatar} sx={{ "--Avatar-size": "4rem" }} />
         <Chip
           size="sm"
           variant="soft"
@@ -153,13 +154,14 @@ export default function BioCard() {
           >
            <Button
               sx={{
+                position:"relative",
                 bgcolor: "#45a049",
                 color: "#fff",
                 "&:hover": { bgcolor: "white", color: "black" },
               }}
              
             >
-            <HashLink smooth to="#contact" >Message</HashLink>
+            <HashLink smooth to="#contact" className="absolute w-[100%] h-[100%] flex justify-center items-center" >Message</HashLink>
               
             </Button>
             <Button onClick={handleLinkedinClick} 

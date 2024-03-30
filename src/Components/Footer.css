@@ -13,15 +13,20 @@
     }
   }
 
-  @media (max-width:1180px){
+  @media (max-width:900px){
     #btFooter{
-      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      row-gap: 2rem;
+      row-gap: 0.5rem;
 
     }
+    /* #copyright{
+      position: relative;
+      left: 0;
+      transform: translateX(0);
+     
+    } */
     
   }
 
